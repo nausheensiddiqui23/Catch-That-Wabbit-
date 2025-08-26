@@ -7,6 +7,9 @@ var scene,
   container,
   controls, 
   clock;
+  var fieldScore, fieldLives;
+var score = 0;
+var lives = 3;
 var delta = 0;
 var floorRadius = 200;
 var speed = 6;
