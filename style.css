@@ -110,3 +110,25 @@
 .lightInstructions {
   color: #5f9042;
 }
+
+#score, #lives {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  margin-top: 100px; /* score below distance */
+}
+
+#lives {
+  margin-top: 160px; /* lives below score */
+}
+
+#scoreValue, #livesValue {
+  font-size: 30px;
+  font-family: "Voltaire";
+  color: #5f9042;
+}
